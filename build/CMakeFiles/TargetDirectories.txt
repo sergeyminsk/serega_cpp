@@ -1,1 +1,0 @@
-/home/serega/Dropbox/workspace/serega/build/CMakeFiles/serega.dir
