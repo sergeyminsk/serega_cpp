@@ -28,8 +28,8 @@ int main(int argc, char **argv)
   cout << f << "\n";
   
   
-//  MainClass fu(5.1,5.1);
-//  std::cout << fu(12.2) << "\n";  
+  MainClass fu(5.1,5.1);
+  std::cout << fu(12.2) << "\n";  
   
 //  fu.fundapcpp();
   
