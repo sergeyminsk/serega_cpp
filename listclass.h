@@ -18,6 +18,7 @@ public:
   void standart();
   static void insert_splice();
   static void show_list_one_two_three(std::list<char>&, std::list<char>&, std::list<char>&);
+  void removeFunc();
 };
 
 #endif // LISTCLASS_H

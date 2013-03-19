@@ -85,5 +85,23 @@ void ListClass::show_list_one_two_three(std::list<char> &one, std::list<char> &t
   for_each(three.begin(), three.end(), IteratorsClass::outputchar);
   std::cout << ";\n";
 }
-
+/* remove() with STL list contaner */
+void ListClass::removeFunc()
+{
+  for_each(one.begin(), one.end(), IteratorsClass::outputchar);
+  std::cout << "\n";
+  one.remove('b'); // remove and change size of contaner
+  for_each(one.begin(), one.end(), IteratorsClass::outputchar);
+  std::cout << "\n";
+  for_each(two.begin(), two.end(), IteratorsClass::outputchar);
+  std::cout << "\n";
+  
+  /* indicating where need remove, but do not change size of contaner *
+   * can help the iterator 'erase' */
+  remove(two.begin(), two.end(), 'g'); 
+  
+  for_each(two.begin(), two.end(), IteratorsClass::outputchar);
+  std::cout << "\n";
+  
+}
 

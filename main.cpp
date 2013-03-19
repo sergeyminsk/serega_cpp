@@ -17,10 +17,17 @@
 #include "patternclass.h"
 #include "mainclass.h"
 #include "smartpointerclass.h"
+#include "algorithmclass.h"
+
+using namespace std;
 
 int main(int argc, char **argv) 
 {
-  using namespace std;
+  ListClass dll;
+  dll.removeFunc();
+//  AlgorithmClass pasn;
+//  pasn.algorithm();
+/*  
   int f;
   cin >> f;
 //  cout.setf(ios::showpos); // show '+' before numbers
@@ -30,7 +37,7 @@ int main(int argc, char **argv)
   
   MainClass fu(5.1,5.1);
   std::cout << fu(12.2) << "\n";  
-  
+*/  
 //  fu.fundapcpp();
   
 
