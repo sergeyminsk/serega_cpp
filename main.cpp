@@ -18,11 +18,14 @@
 #include "mainclass.h"
 #include "smartpointerclass.h"
 #include "algorithmclass.h"
+#include "stringclass.h"
 
 using namespace std;
 
 int main(int argc, char **argv) 
 {
+    StringClass scl;
+    scl.stringHowTo();
 /*
     ListClass fC;
     fC.removeFunc();
@@ -53,6 +56,6 @@ int main(int argc, char **argv)
 //  std::plus<double> add;
 //  double y = add(2.2, 3.4);
 
-    std::cout << "\n\tdone\n";
+    std::cout << "\n\tDONE\n";
     return 0;
 }

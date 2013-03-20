@@ -13,5 +13,6 @@ add_executable(serega
 		  smartpointerclass.cpp
 		  big_integer.cpp
 		  algorithmclass.cpp 
+		  stringclass.cpp
 	      )
 
