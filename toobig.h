@@ -28,10 +28,7 @@ public:
 };
 
 
-/* 
- *  implementing "void FunctorFunc();"
- * 
- */
+/* implementing "void FunctorFunc();"  */
 template <class T>void TooBig<T>::FunctorFunc()
 {
   FunctorClass f1;

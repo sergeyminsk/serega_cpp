@@ -17,7 +17,7 @@ class MainClass: public IteratorsClass, public SetContainerClass, public Functor
 public:
   int inches;
   MainClass();
-  MainClass(double f, double s) : FunctorClass(f,s){}; // send paramerers to FunctorClass constructor
+  MainClass(double f, double s) : FunctorClass(f,s){} // send paramerers to FunctorClass constructor
   ~MainClass();
   char *getValOfChar();
   void use_ptr() const;

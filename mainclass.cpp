@@ -12,11 +12,11 @@
 
 MainClass::MainClass() : inches(7)
 {
-  constructorDefault+=1; std::cout << "\nconstructor first Default № " << constructorDefault << "\n";
+  constructorDefault+=1; std::cout << "\nconstructor first Default # " << constructorDefault << "\n";
 }
 MainClass::~MainClass()
 {
-  destructorDefault++; std::cout << "\ndestructor first Default № " << destructorDefault << "\n";
+  destructorDefault++; std::cout << "\ndestructor first Default # " << destructorDefault << "\n";
 }
 
 char* MainClass::getValOfChar()

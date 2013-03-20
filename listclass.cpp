@@ -85,6 +85,7 @@ void ListClass::show_list_one_two_three(std::list<char> &one, std::list<char> &t
   for_each(three.begin(), three.end(), IteratorsClass::outputchar);
   std::cout << ";\n";
 }
+
 /* remove() with STL list contaner */
 void ListClass::removeFunc()
 {

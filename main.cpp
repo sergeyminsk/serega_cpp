@@ -23,26 +23,36 @@ using namespace std;
 
 int main(int argc, char **argv) 
 {
+/*
+    ListClass fC;
+    fC.removeFunc();
+*/
+/*
+    IteratorsClass itclass;
+    itclass.vectorFunc();
+*/
+/*
   ListClass dll;
   dll.removeFunc();
+*/
 //  AlgorithmClass pasn;
 //  pasn.algorithm();
-/*  
+/*
   int f;
   cin >> f;
-//  cout.setf(ios::showpos); // show '+' before numbers
+  cout.setf(ios::showpos); // show '+' before numbers
   cout.setf(ios::right); 
   cout << f << "\n";
-  
-  
+
   MainClass fu(5.1,5.1);
-  std::cout << fu(12.2) << "\n";  
-*/  
+  std::cout << fu(f) << "\n";
+*/
 //  fu.fundapcpp();
   
 
 //  std::plus<double> add;
 //  double y = add(2.2, 3.4);
 
+    std::cout << "\n\tdone\n";
     return 0;
 }

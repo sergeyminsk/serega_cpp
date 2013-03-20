@@ -113,3 +113,42 @@ void IteratorsClass::input_by_cin()
   for_each(vec.begin(), vec.end(), outputint);
 }
 
+void IteratorsClass::vectorFunc()
+{
+    std::vector<int> numbers(10);
+    for(int i = 0; i < 10; i++) { numbers[i] = i; }
+    showVector(numbers);
+    std::cout << "\n";
+
+    numbers.push_back(3);	showVector(numbers);
+
+    std::cout << "\nvector size: " << numbers.size() << "\n";
+
+    std::cout << "begin : " << numbers.front() << "\n";
+
+    std::cout << "erase\n"; numbers.erase(numbers.begin()+3);
+
+    showVector(numbers);
+    std::cout << "\n";
+
+    for (std::vector<int>::iterator it = numbers.begin(); it != numbers.end(); ++it)
+    {
+      std::cout << *it << ' ';
+    }
+    numbers.clear();
+    std::string f = numbers.empty() ? "true" : "false";
+    std::cout << "\n empty? - " << f << "!\n";
+    std::cout << "\n";
+    std::vector<int> vec;
+    int templ;
+    while(std::cin >> templ && templ >= 0) { vec.push_back(templ);}
+    std::cout << "size of vec: " << vec.size() << "\n";
+}
+
+void IteratorsClass::showVector(std::vector<int> &fod) const
+{
+  for(int i = 0; i < 11; i++)
+  {
+    std::cout << fod[i] << "\t";
+  }
+}
